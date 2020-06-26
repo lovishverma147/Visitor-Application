@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----- Schedule -----"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15-01-2020"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="230dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:text="03:25 PM"
+            android:padding="5dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="120dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----- Actual -----"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="220dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22-01-2020"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="220dp"
+            android:textSize="18dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time In"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="270dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:10 PM"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="270dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Out"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="320dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:50 PM"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="320dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----- Customer Details -----"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="370dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="40dp"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginTop="420dp"/>
+
+        <EditText
+            android:background="#fff"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="420dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="----- Driver Details -----"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:layout_marginTop="470dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrier Name"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="520dp"/>
+
+        <EditText
+            android:background="#fff"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="520dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="570dp"/>
+
+        <EditText
+            android:background="#fff"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="570dp"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@color/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="640dp"/>
+
+    </RelativeLayout>
+</ScrollView>
